@@ -84,8 +84,8 @@ html, body {
     text-align: left;
     height: 100vh;
     background: linear-gradient(to right, 
-                rgba(6, 39, 111, 0.95) 30%, 
-                rgba(19, 140, 194, 0.3) 70%),
+                rgba(6, 39, 111, 1) 30%, 
+                rgba(19, 140, 194, 1) 70%),
                 url('./../img/car_cool-1.png') no-repeat center center/cover;
     background-blend-mode: overlay;
     color: rgba(255, 255, 255, 1);
@@ -478,11 +478,11 @@ p span {
 }
 
 .contact-line.top {
-    top: 20px;
+    top: 60px;
 }
 
 .contact-line.bottom {
-    bottom: 150px;
+    bottom: 225px;
 }
 
 .contact-info {
@@ -628,6 +628,7 @@ p span {
     max-width: 1200px;
     width: 90%; 
     margin: 0 auto;
+    flex-wrap: nowrap;
 }
 
 .footer-logo img {
@@ -638,7 +639,7 @@ p span {
 .footer-links {
     display: flex;
     gap: 30px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .footer-column {
